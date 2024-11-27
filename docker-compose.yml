@@ -1,0 +1,7 @@
+services:
+  preview-my-app-api:
+    image: my-image:build-18
+    build:
+      context: .
+      tags:
+        - my-image:build-18
